@@ -1,0 +1,38 @@
+{
+  "name": "qris-utils",
+  "version": "1.0.0",
+  "description": "A lightweight utility to generate, validate, and extract QRIS-compliant payment strings using TLV format and CRC16 checksum.",
+  "homepage": "https://github.com/NeaByteLab/QRIS-Utils#readme",
+  "bugs": {
+    "url": "https://github.com/NeaByteLab/QRIS-Utils/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeaByteLab/QRIS-Utils.git"
+  },
+  "license": "MIT",
+  "author": "NeaByteLab",
+  "main": "src/QRIS.js",
+  "exports": {
+    ".": "./src/QRIS.js"
+  },
+  "keywords": [
+    "qris",
+    "emv",
+    "tlv",
+    "crc16",
+    "payment",
+    "parser",
+    "indonesia",
+    "qrcode",
+    "qris-parser",
+    "qris-generator"
+  ],
+  "scripts": {
+    "test": "jest",
+    "example": "node example.js"
+  },
+  "devDependencies": {
+    "jest": "^30.0.3"
+  }
+}
